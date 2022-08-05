@@ -1,7 +1,5 @@
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
-
-// Button main class
 class Button extends React.Component {
     constructor(props) {
         super(props)
@@ -10,7 +8,6 @@ class Button extends React.Component {
 }
 
 function App() {
-    //Buttons that will be on page
     return <div>
         
     </div>
