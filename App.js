@@ -13,13 +13,27 @@ class Button extends React.Component {
     }
 }
 
-function testing() {
-    console.log('abc');
+class Panel extends React.Component {
+    constructor(props) {
+        super(props)
+        this.inner = this.props.inner
+    }
+    render() {
+        return <div className="Panel">{this.inner}</div>
+    }
+}
+
+function OpenGithub() {
+    window.open('https://github.com/mikhail-zh-2009/React-Page-2', '_blank');
 }
 
 function App() {
     return <div>
-        <Button ID="button_1" Class="Button" text="Hello World!" event={testing}/>
+        <Panel inner={
+            <div>
+                <Button ID="github_button" Class="Button" text="GitHub" event={OpenGithub}/>
+            </div>
+        }/>
     </div>
 }
 

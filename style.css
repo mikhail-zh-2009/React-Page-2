@@ -1,21 +1,28 @@
 body {
+    margin: 0;
     background-image: url("image.png");
     background-size: 100% 100vh;
+    background-attachment: fixed;
 }
 .Button {
     border: 0;
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: #fff8;
     transition-duration: 300ms;
     -webkit-transition-duration: 300ms;
-    font-size: 1vh;
 }
 .Button:hover {
     box-shadow: 3px 3px 10px #0006;
-    font-size: 1.35vh;
 }
-#button_1 {
-    margin: 40vh 35%;
-    min-width: 30%;
+.Panel {
+    display: inline-block;
+    width: 50%;
+    min-height: 50vh;
+    background-color: #0006;
+    border-radius: 5px;
+}
+#github_button {
+    font-size: 1vh;
+    min-width: 10%;
     min-height: 5vh;
 }
