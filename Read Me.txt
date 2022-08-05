@@ -1,1 +1,1 @@
-This is page here i placed links on my projects on GitHub. 
+This is page here i placed links on my projects on GitHub. For launch it open folder and start server, because it made using ReactJS.
