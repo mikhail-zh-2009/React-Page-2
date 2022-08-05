@@ -33,10 +33,6 @@ class Image extends React.Component {
     }
 }
 
-function OpenGithub() {
-    window.open('https://github.com/mikhail-zh-2009/React-Page-2', '_blank');
-}
-
 function App() {
     return <div>
         <Panel inner={ <div> <Button ID="github_button" Class="Button" link="https://github.com/mikhail-zh-2009/React-Page"/> ReactJS Calculator <br/> <Image Source="project-react-page.png"/> </div> }/>
